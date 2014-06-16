@@ -35,10 +35,10 @@ WORKDIR /
 
 RUN pacman -Syyu --noconfirm 
 
-RUN pacman -S  --noconfirm gtk3 mesa-libgl gnome-themes-standard
+RUN pacman -S --noconfirm gtk3 mesa-libgl gnome-themes-standard gnome-icon-theme 
 
 #Install gedit
-#RUN pacman -S  --noconfirm gedit
+#RUN pacman -S --noconfirm gedit
 
 
 #****************************************************
