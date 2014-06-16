@@ -54,7 +54,7 @@ broadwayd --port 80 &
 export GDK_BACKEND=broadway
 
 # Launch a GTK3 broadway compatible app
-gedit &
+#gedit &
 
 echo ""
 echo "*****************************************************"
