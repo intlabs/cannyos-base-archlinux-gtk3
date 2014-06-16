@@ -31,7 +31,7 @@ curl https://raw.githubusercontent.com/intlabs/cannyos-base-archlinux-gtk3/maste
 #     *                                                   *
 #     *****************************************************
 echo "*                                                   *"
-echo "*         Ubuntu docker container builder           *"
+echo "*  archlinux docker containter with gtk3 builder    *"
 echo "*                                                   *"
 echo "*****************************************************"
 echo ""

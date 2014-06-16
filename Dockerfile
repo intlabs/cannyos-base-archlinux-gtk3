@@ -35,10 +35,10 @@ WORKDIR /
 
 RUN pacman -Syyu --noconfirm 
 
-RUN pacman -S gtk3 mesa-libgl
+RUN pacman -S  --noconfirm gtk3 mesa-libgl
 
 #Install gedit
-RUN pacman -S gtk3 mesa-libgl
+RUN pacman -S  --noconfirm gedit
 
 
 #****************************************************
